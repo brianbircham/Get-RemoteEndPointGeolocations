@@ -26,7 +26,7 @@
                 $Hash.RemoteCity    = $response."city"
             }
 
-            return [pscustomobject]$Hash
+            [pscustomobject]$Hash
         }
 
     } catch {
